@@ -1,6 +1,4 @@
-package white
-
-var whiteSquares = []string{
+whiteSquares = {
 	"a2", "a4", "a6", "a8",
 	"b1", "b3", "b5", "b7",
 	"c2", "c4", "c6", "c8",

@@ -1,5 +1,5 @@
 import chess.pgn
-pgn = open("/home/linuxer77/Downloads/pgn.pgn")
+pgn = open("/home/linuxer77/Downloads/pgn4.pgn")
 game = chess.pgn.read_game(pgn)
 board = game.board()
 uci_moves = []
@@ -16,6 +16,3 @@ for move in uci_moves:
     else:
         BIT += '0'
 print(BIT)
-# Convert the integer to bytes and then decode the bytes
-# decoded_string = n.to_bytes((n.bit_length() + 7) // 8, 'big').decode()
-# print(decoded_string)
